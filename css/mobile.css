@@ -1,0 +1,270 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* color: #434455;
+  background-color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  font-family: "Roboto", sans-serif; */
+  color: #000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 288px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 0 16px;
+}
+
+.hero {
+}
+.container {
+}
+.hero-main {
+}
+.logo {
+}
+.hero-title {
+}
+.separator {
+}
+.hero-text {
+}
+.hero-download-button {
+}
+.hero-form {
+}
+.hero-form-title {
+}
+.hero-form-title-span {
+}
+.hero-form-label {
+}
+.hero-form-input {
+}
+.form-button {
+}
+.social {
+  background: #f8efef;
+  padding-top: 31px;
+  padding-bottom: 44px;
+}
+.social-info {
+}
+.social-title {
+  color: #333;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  width: 287px;
+  height: 45px;
+  /* padding: auto; */
+}
+
+.social-text {
+  color: #86878b;
+  margin-bottom: 32px;
+}
+
+.social-list {
+  display: flex;
+  gap: 17px;
+  /* align-items: center; */
+}
+.social-item {
+}
+.social-link {
+}
+.social-icon {
+  fill: #cccccc;
+}
+.tabs .container {
+  margin-top: 41px;
+}
+.tabs-menu {
+  padding: 0;
+  display: flex;
+}
+.tabs-info {
+  border: 1px solid #c6cbcd;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab {
+  display: none; /* скрыть все вкладки по умолчанию */
+}
+.tab.active {
+  display: block;
+}
+.tab-link {
+  border: none;
+  margin: 0;
+  width: 96px;
+  height: 40px;
+  color: #333;
+  /* text-align: center; */
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  border-bottom: 1px solid #c6cbcd; /* Добавляем нижний бордер ко всем кнопкам */
+}
+
+.tab-link.active {
+  border-radius: 5px 5px 0px 0px;
+  border: 1px solid #c6cbcd;
+  border-bottom: none; /* Убираем нижний бордер только у активной вкладки */
+}
+.tabs-title {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 22px;
+  width: 243px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+}
+.tabs-text {
+  padding: 29px 20px 29px 23px;
+}
+.tabs-text-one {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+.tabs-text-two {
+  font-size: 13px;
+}
+.tabs-download-button {
+  width: 243px;
+  height: 50px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  background-color: #ec7979;
+  margin-bottom: 30px;
+}
+
+.tabs-photo {
+  display: none;
+}
+.awesome {
+}
+.awesome-centre {
+}
+.awesome-title {
+}
+.awesome-text {
+}
+.awesome-list {
+}
+.awesome-item {
+}
+.awesome-icon {
+}
+.awesome-item-title {
+}
+.awesome-item-text {
+}
+.price {
+}
+.customers {
+}
+.customers-title {
+}
+.customers-text {
+}
+.customers-list {
+}
+.customers-item {
+}
+.customers-feedback {
+}
+.customers-feedback-text {
+}
+.customers-feedback-icon {
+}
+.customers-guy {
+}
+.customers-guy-name {
+}
+.customers-guy-post {
+}
+.banner {
+}
+.banner-title {
+}
+.banner-text {
+}
+.contacts {
+}
+.contacts-title {
+}
+.contacts-text {
+}
+.footer {
+  padding: 35px 16px 45px 16px;
+  background-color: #000;
+  margin: 0 auto;
+  max-width: 320px;
+}
+.footer .social-list {
+  margin-bottom: 43px;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 0.5);
+}
